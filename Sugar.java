@@ -12,7 +12,7 @@ class Sugar extends Cookie {
   // second constructor
   Sugar(String aShape, boosean isDecorated ){
     shape = aShape;
-    decorated = isDecorated 
+    decorated = isDecorated;
     isDecorated = false;
     }
 
@@ -26,7 +26,7 @@ class Sugar extends Cookie {
     shape = aShape;
   }
 
-  void cutCookie
+  void cutCookie()
   {
     setShape(Tree);
     Super setCount = 5;

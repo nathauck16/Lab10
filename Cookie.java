@@ -35,7 +35,7 @@ class Cookie {
   }
 
   // bake cookies method
-  void bakeCookies
+  void bakeCookies()
   {
     // takes in two parameters, bake temp and bake time
     //
