@@ -1,29 +1,45 @@
-Class Sugar extends Cookie{
-//instance variables
-private String shape;
-private boolean decorated;
+class Sugar extends Cookie {
+  // instance variables
+  private String shape;
+  private boolean decorated;
 
-//constructor
-Sugar(){
-  shape = "";
-  decorated = false;
-}
+  // constructor
+  Sugar() {
+    shape = "";
+    decorated = false;
+  }
 
-//second constructor
-Sugar(String aShape, boosean isDecorated ){
-shape = aShape;
-decorated = isDecorated 
-isDecorated = false;
-}
+  // second constructor
+  Sugar(String aShape, boosean isDecorated ){
+    shape = aShape;
+    decorated = isDecorated 
+    isDecorated = false;
+    }
 
-//getter
-String getShape(){
-  return shape;
-}
-//setter
-String setShape(){
-  shape = aShape;
-}
+  // getter
+  String getShape() {
+    return shape;
+  }
 
-void cut
+  // setter
+  void setShape() {
+    shape = aShape;
+  }
+
+  void cutCookie
+  {
+    setShape(Tree);
+    Super setCount = 5;
+
+    System.out.println(getCount + " cookies were cut into " + getShape);
+  }
+
+
+  if(Super isCookieBaked = true){
+    decorated = true;
+    System.out.println("The cookies were decorated");
+  } else{
+    System.out.println("Make sure to bake the cookies first")
+  }
+
 }
