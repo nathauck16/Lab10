@@ -33,10 +33,10 @@ class Cookie{
   }
 
   //bake cookies method
-  Public void bakeCookies{
+  void bakeCookies{
+    //takes in two parameters, bake temp and bake time
 
-
-
+    System.out.println( count +" cookies were baked at" + bakeTemp + "degrees F for " + bakeTime + "minutes.") 
   }
 
 
