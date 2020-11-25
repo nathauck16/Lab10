@@ -10,7 +10,7 @@ class Sugar extends Cookie {
   }
 
   // second constructor
-  Sugar(String aShape, boosean isDecorated ){
+  Sugar(String aShape, boolean isDecorated ){
     shape = aShape;
     decorated = isDecorated;
     isDecorated = false;
@@ -34,7 +34,7 @@ class Sugar extends Cookie {
   }
 
 
-  if(Super isBaked = true){
+  if(Super sBaked = true){
     decorated = true;
     System.out.println("The cookies were decorated");
   } else{

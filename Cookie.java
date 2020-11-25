@@ -57,7 +57,7 @@ class Cookie {
   {
     // takes in two parameters, bake temp and bake time
     //
-    setBakeTemp(375);
+    setBakeTemp5);
     setBakeTime(18);
     System.out.println(count + " cookies were baked at" + bakeTemp + "degrees F for " + bakeTime + "minutes.");
   }
