@@ -34,11 +34,11 @@ class Sugar extends Cookie {
   }
 
 
-  if(Super sBaked = true){
+  if(Super.isBaked = true){
     decorated = true;
     System.out.println("The cookies were decorated");
   } else{
-    System.out.println("Make sure to bake the cookies first")
+    System.out.println("Make sure to bake the cookies first");
   }
 
 }
