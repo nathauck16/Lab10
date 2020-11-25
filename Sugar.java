@@ -26,8 +26,7 @@ class Sugar extends Cookie {
     shape = aShape;
   }
 
-  void cutCookie()
-  {
+  void cutCookie(){
     setShape(Tree);
     Super setCount = 5;
 
@@ -35,7 +34,7 @@ class Sugar extends Cookie {
   }
 
 
-  if(Super isCookieBaked = true){
+  if(Super isBaked = true){
     decorated = true;
     System.out.println("The cookies were decorated");
   } else{

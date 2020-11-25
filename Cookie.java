@@ -3,44 +3,62 @@ class Cookie {
   private int count;
   private int bakeTemp;
   private int bakeTime;
-  private boolean isCookieBaked;
+  private boolean baked;
 
   // constructor
-  Cookie(){
+  Cookie() {
         count = 0;
         bakeTemp = 0;
         bakeTime = 0;
-        isCookieBaked = false;
+        baked = false;
       }
 
   // constructor
-  Cookie(int aCount, int aBakeTemp, int aBakeTime, boolean isACookieBaked) {
+  Cookie(int aCount, int aBakeTemp, int aBakeTime, boolean isBaked) {
     count = aCount;
     bakeTemp = aBakeTemp;
     bakeTime = aBakeTime;
-    isCookieBaked = isACookieBaked;
+    baked = isBaked;
   }
 
   // accessors
-  boolean getIsCookieBaked() {
-    return isCookieBaked;
+  boolean getIsBaked() {
+    return isBaked;
+  }
+  void setIsBaked() {
+    baked = isBaked;
   }
 
   int getCount() {
     return count;
   }
-
   void setCount() {
     count = aCount;
   }
+
+  int getBakeTemp(){
+    return bakeTemp;
+  }
+  void setBakeTemp(){
+    bakeTemp = aBakeTemp;
+  }
+
+  int getBakeTime(){
+    return bakeTime;
+  }
+  void setBakeTime(){
+    bakeTime = aBakeTime;
+  }
+
+
 
   // bake cookies method
   void bakeCookies()
   {
     // takes in two parameters, bake temp and bake time
     //
-    //work here
-
+    setBakeTemp(375);
+    setBakeTime(18);
     System.out.println(count + " cookies were baked at" + bakeTemp + "degrees F for " + bakeTime + "minutes.");
   }
 
